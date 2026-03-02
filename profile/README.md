@@ -12,7 +12,7 @@ according to two standards published by the
 Support for other software development standards can be added on demand.
 
 The specification items for software and the utilities provided by *specware*
-and *specbuild* enable you to:
+and *specmake* enable you to:
 
 * specify a software product
 * write validation tests
@@ -44,10 +44,11 @@ The components of *specthings* are:
   through links which may contain role-specific extra information.  This
   enables different views to a specification item graph depending on the use
   case.
+
 * *specware*:
   Provides utilities to specify software and generate source code for
   interfaces and validation tests from the specification.
 
-* *specbuild*:
+* *specmake*:
   Provides utilities to build packages of software products along with their
   documentation.
